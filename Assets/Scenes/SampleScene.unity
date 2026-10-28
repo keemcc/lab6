@@ -670,6 +670,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18c76533b37644fe8cc42066198dcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Target
+  maxHealth: 3
 --- !u!1 &832575517
 GameObject:
   m_ObjectHideFlags: 0
@@ -751,6 +752,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18c76533b37644fe8cc42066198dcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Target
+  maxHealth: 3
 --- !u!65 &888673811
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -907,6 +909,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e18c76533b37644fe8cc42066198dcb7, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::Target
+  maxHealth: 3
 --- !u!65 &1069339307
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1165,6 +1168,7 @@ MonoBehaviour:
   projectilePrefab: {fileID: 1156353129178552072, guid: c5af4fe94875feff08369b7256bd104a, type: 3}
   firePoint: {fileID: 924367772}
   launchForce: 18
+  fireCooldown: 0.5
 --- !u!114 &2035350301
 MonoBehaviour:
   m_ObjectHideFlags: 0
